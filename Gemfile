@@ -7,6 +7,7 @@ gem 'rest-client'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
   gem 'sqlite3'
+  gem 'haml-rails'
 end
 
 group :production do
@@ -27,6 +28,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'haml'
+gem 'bootstrap-sass'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
