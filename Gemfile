@@ -8,6 +8,7 @@ gem 'rest-client'
 group :development do
   gem 'sqlite3'
   gem 'haml-rails'
+  gem 'debugger'
 end
 
 group :production do
