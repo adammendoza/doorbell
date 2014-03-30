@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-  attr_accessible :msg, :number, :send, :username
+  attr_accessible :msg, :num, :username
 end

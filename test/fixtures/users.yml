@@ -2,12 +2,10 @@
 
 one:
   username: MyString
-  number: 1
+  num: 1
   msg: MyText
-  send: false
 
 two:
   username: MyString
-  number: 1
+  num: 1
   msg: MyText
-  send: false

@@ -4,14 +4,11 @@
   %b Username:
   = @user.username
 %p
-  %b Number:
-  = @user.number
+  %b Num:
+  = @user.num
 %p
   %b Msg:
   = @user.msg
-%p
-  %b Send:
-  = @user.send
 
 = link_to 'Edit', edit_user_path(@user)
 \|
