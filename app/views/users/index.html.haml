@@ -3,8 +3,9 @@
 %table
   %tr
     %th Username
-    %th Num
+    %th Number
     %th Msg
+    %th Contact
     %th
     %th
     %th
@@ -12,8 +13,9 @@
   - @users.each do |user|
     %tr
       %td= user.username
-      %td= user.num
+      %td= user.number
       %td= user.msg
+      %td= user.contact
       %td= link_to 'Show', user
       %td= link_to 'Edit', edit_user_path(user)
       %td= link_to 'Destroy', user, :method => :delete, :data => { :confirm => 'Are you sure?' }

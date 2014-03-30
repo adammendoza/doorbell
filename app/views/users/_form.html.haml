@@ -10,10 +10,13 @@
     = f.label :username
     = f.text_field :username
   .field
-    = f.label :num
-    = f.number_field :num
+    = f.label :number
+    = f.number_field :number
   .field
     = f.label :msg
     = f.text_area :msg
+  .field
+    = f.label :contact
+    = f.check_box :contact
   .actions
     = f.submit 'Save'
