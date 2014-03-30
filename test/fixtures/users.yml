@@ -3,7 +3,9 @@
 one:
   number: 1
   msg: MyText
+  username: MyString
 
 two:
   number: 1
   msg: MyText
+  username: MyString

@@ -6,6 +6,9 @@
 %p
   %b Msg:
   = @user.msg
+%p
+  %b Username:
+  = @user.username
 
 = link_to 'Edit', edit_user_path(@user)
 \|
