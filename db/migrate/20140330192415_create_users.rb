@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :username
       t.integer :number
       t.text :msg
-      t.boolean :contact
+      t.boolean :contact, :default=>false
 
       t.timestamps
     end
