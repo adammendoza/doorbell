@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20140330192415) do
 
   create_table "users", :force => true do |t|
     t.string   "username"
-    t.integer  "number"
+    t.string  "number"
     t.text     "msg"
     t.boolean  "contact"
     t.datetime "created_at", :null => false
