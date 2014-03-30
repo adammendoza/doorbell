@@ -7,13 +7,16 @@
           %li= msg
 
   .field
+    = f.label :username
+    = f.text_field :username
+  .field
     = f.label :number
     = f.number_field :number
   .field
     = f.label :msg
     = f.text_area :msg
   .field
-    = f.label :username
-    = f.text_field :username
+    = f.label :send
+    = f.check_box :send
   .actions
     = f.submit 'Save'

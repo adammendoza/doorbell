@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
+  username: MyString
   number: 1
   msg: MyText
-  username: MyString
+  send: false
 
 two:
+  username: MyString
   number: 1
   msg: MyText
-  username: MyString
+  send: false
